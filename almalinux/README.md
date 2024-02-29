@@ -823,5 +823,5 @@ rules:
 
 The CIS Benchmark stated  that  it is recommended  that PASS_MIN_DAYS parameter be set to 1 or more days. However, the almalinux9 SCA checks  for a value of 7.
 
-##Removed rules
+## Removed rules
 The rules with ID **32625**, **32626**, **32627** and **32631** are commented out because OpenSCAP used the rsyslog method to save the logs. These rules contradicts with that approach directly. Both ways are valid ways to harden the system, however only one can be chosen. 
